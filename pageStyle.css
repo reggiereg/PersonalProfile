@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right bottom, rgb(128, 100, 59),
+    white,
+    rgb(85, 80, 80));
+    
+}
+
+img{
+    border: 3px solid black;
+    border-radius: .15in;
+    position: relative;
+}
+.TitleMenuflex-container{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background: linear-gradient(to right , rgb(128, 100, 59),
+    white,
+    rgb(85, 80, 80));
+    font-size: 25px;
+    border:10px solid #313133;
+    border-radius: 1in;
+}
+
+.PageLayout-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuItemsListflex-container{
+    width:500px;
+    text-align: center;
+    background: linear-gradient(to right , rgb(85, 80, 80),white, rgb(128, 100, 59));
+}
+
+.MenuItemsListflex-container a {
+    display:block;
+    float:left;
+    width:33%;
+    position: relative;
+}
+
+.Introflex-container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to left , rgb(128, 100, 59),
+    white,
+    rgb(85, 80, 80));
+}
+.Contentflex-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: linear-gradient(to right , rgb(128, 100, 59),
+    white,
+    rgb(85, 80, 80));
+}
+
+.homeTownflex-container{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background: linear-gradient(to right , rgb(128, 100, 59),
+    white,
+    rgb(85, 80, 80));
+}
+
+
